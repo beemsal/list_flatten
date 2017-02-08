@@ -4,6 +4,7 @@ class ListUtil:
         self.the_list = the_list
 
     def flatten(self):
+        """ Flatten an arbitraily nested list """
         return self.__flatten(self.the_list)
 
     def __flatten(self, the_list, buf=None):
